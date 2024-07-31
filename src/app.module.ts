@@ -15,7 +15,7 @@ import { WechatRobotService } from './services/wechat.robot.service';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'localhost',
+      host: 'mysql-container',
       port: 3306,
       username: 'root',
       password: '123456',
