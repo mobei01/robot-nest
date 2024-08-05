@@ -15,7 +15,8 @@ async function bootstrap() {
   };
 
   app.enableCors(corsOptions);
-
+  // 设置全局前缀
+  app.setGlobalPrefix('api');
   await app.listen(3005);
 }
 bootstrap();
