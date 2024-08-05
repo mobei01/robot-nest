@@ -15,10 +15,10 @@ import { WechatRobotService } from './services/wechat.robot.service';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: '8.138.123.250',
+      host: 'mysql-container',
       port: 3306,
-      username: 'robot',
-      password: 'root123456',
+      username: 'root',
+      password: '123456',
       database: 'robot',
       entities: [Page],
       synchronize: true,
