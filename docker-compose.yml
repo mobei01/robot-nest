@@ -3,7 +3,7 @@ services:
   fe-app:
     image: registry.cn-guangzhou.aliyuncs.com/robot_mobei/robot:001
     ports:
-      - 80:80
+      - 3006:3006
     depends_on:
       - nest-app
     networks:
